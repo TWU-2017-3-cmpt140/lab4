@@ -10,7 +10,6 @@ class Coin:
     """
     fields:
         state - integer; let 0=head and 1=tail
-        p - the probablity of getting a head on a coin flip
     """
 
     #************************************************************
@@ -20,7 +19,6 @@ class Coin:
     # input: initial state
     def __init__(self, state):
        self.state = state
-       p = 0.5 # if the coin is weighted, p will not be 0.5
 
     #************************************************************
     # return a string representation of this Coin instance
